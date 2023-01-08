@@ -1,0 +1,28 @@
+.shopping-container {
+    position: fixed;
+    width: 97%;
+    height: 97vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: 30px;
+    background-color: #fff;
+}
+.shopping-close{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    cursor: pointer;
+}
+
+.shopping-item__name {
+    padding: 20px;
+    font-weight: 600;
+}
+
+.shopping-item__price {
+    padding: 20px 80px;
+    font-weight: 600;
+    color: rgb(108, 108, 108);
+}
