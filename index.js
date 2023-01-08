@@ -4,7 +4,7 @@ function render() {
     productsPage.render();
 }
 let CATALOG = [];
-fetch('https://zsline.github.io/productsCartJson/server/catalog.json')
+fetch('https://raw.githubusercontent.com/zsline/productsCartJson/master/server/catalog.json')
 .then(res => res.json())
 .then(body => {
     CATALOG = body;
